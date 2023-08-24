@@ -50,15 +50,18 @@ const styles = StyleSheet.create({
     marginBottom: 32
   },
   image: {
-    width: '100%',
+    marginTop:30,
+    marginHorizontal:20,
+    // width: '100%',
     height: 350,
+    borderRadius:10
   },
   title: {
     fontWeight: 'bold',
     fontSize: 24,
     margin: 8,
     textAlign: 'center',
-    color: 'white',
+    color: 'black',
   },
   listOuterContainer:{
     alignItems:'center'
