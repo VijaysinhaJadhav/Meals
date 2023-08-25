@@ -16,9 +16,9 @@ const styles = StyleSheet.create({
         marginHorizontal: 12,
         marginVertical: 4,
         textAlign: 'center',
-        color: '#3498DB',
+        color: '#B2355F',
         padding:6,
-        borderBottomColor:'#3498DB',
+        borderBottomColor:'#fbf2db',
         borderBottomWidth:2
       },
 })

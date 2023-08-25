@@ -13,7 +13,7 @@ export default List;
 
 const styles = StyleSheet.create({
     listItem:{
-        backgroundColor:'#3498DB',
+        backgroundColor:'#fbf2db',
         borderRadius:4,
         paddingVertical:6,
         paddingHorizontal:8,
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         marginHorizontal:12
     },
     itemText:{
-        color:'#0B1578',
+        color:'black',
         textAlign:'center',
         fontWeight:'bold'
     }

@@ -14,12 +14,12 @@ const App = () => {
       source={require('../Meals/assets/images/t.jpeg')} // Replace with the path to your background image
       style={{ flex: 1 }}
     >
-      <StatusBar backgroundColor="black" barStyle="light-content" />
+      <StatusBar backgroundColor="black" barStyle="white-content" />
       <NavigationContainer>
         <Stack.Navigator
           screenOptions={{
-            headerStyle: { backgroundColor: '#80cbea' },
-            headerTintColor: 'black', // text color
+            headerStyle: { backgroundColor: 'black' },
+            headerTintColor: 'white', // text color
             contentStyle: { backgroundColor: 'rgba(255, 255, 255, 0)' }, // Add some opacity to make the text more readable
           }}
         >
